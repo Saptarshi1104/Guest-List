@@ -1,0 +1,16 @@
+body{
+    background-color: salmon;
+}
+#show_guest_list{
+    background-color: mediumvioletred;
+    border-color: midnightblue;
+    border-width: 3px;
+}
+#guest_sorted_list{
+    background-color:lightskyblue;
+    border-color: turquoise;
+    border-width: 5px; 
+}
+hr{
+   background-color: limegreen;
+}

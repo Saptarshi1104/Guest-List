@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guest List</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="main.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <center>
+            <div>Guest List</div>
+            <div id="rows">
+                <input type="text" placeholder="Enter Name" id="input_enter_name">
+                <button class="btn btn-success" onclick="submit()" id="submit_button">Submit</button>
+            </div>
+            <hr>
+            <div id="guest_names"></div>
+            <hr>
+            <div>Guest List</div>
+            <button class="btn btn-success" id="show_guest_button" onclick="show()">Show Guest List</button>
+            <div id="show_guest_list"></div>
+            <hr>
+            <button class="btn btn-success" onclick="sorting()" id="sort">Sort</button>
+            <div id="guest_sorted_list"></div>
+            <hr>
+            <div id="row2">
+                <input placeholder="Search Name" id="input_search_name">
+                <button class="btn btn-success" onclick="searching()" id="search">Search Guest</button>
+                <div id="show_how_many_times"></div>
+            </div>
+        </center>
+    </body>
+</html>
